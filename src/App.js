@@ -1,9 +1,13 @@
 import './App.css'
+import SideBar from './components/SideBar/SideBar';
 
 function App() {
   return (
     <div className="App">
-        Subscribe Zainkeepscode
+        <div className="AppGlass">
+        <SideBar/>
+
+        </div>
     </div>
   );
 }
